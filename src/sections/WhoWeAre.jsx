@@ -19,8 +19,8 @@ const items_list = [
 ]
 
 const Item = ({ title, subtitle, description }) => <div className="mb-12 lg:mb-0">
-    <h1 className="mb-2 text-2xl font-bold" style={{ color: '#029FE4' }}>{title}</h1>
-    <div className="mb-2 flex text-sm font-medium text-danger dark:text-danger-500 lg:justify-start">
+    <h1 className="mb-2 text-3xl font-bold" style={{ color: '#029FE4' }}>{title}</h1>
+    <div className="mb-2 flex font-medium text-danger dark:text-danger-500 lg:justify-start">
         {subtitle}
     </div>
     <p className="text-neutral-500 dark:text-neutral-300">
@@ -30,7 +30,7 @@ const Item = ({ title, subtitle, description }) => <div className="mb-12 lg:mb-0
 
 function WhoWeAre() {
     return (
-        <div className="grid gap-x-6 lg:grid-cols-3 p-8">
+        <div className="grid gap-x-6 lg:grid-cols-3 px-8 py-24 bg-white">
             {
                 items_list.map((list, i) => <Item
                     key={i}
