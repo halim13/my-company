@@ -5,10 +5,10 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import LOGO from '../assets/logo/logo.png'
 
 const navigation = [
-    { name: 'Who We Are', href: '#' },
-    { name: 'Our Values', href: '#' },
-    { name: 'The Perks', href: '#' },
-    { name: 'Location', href: '#' },
+    { name: 'Who We Are', href: '#whoweare' },
+    { name: 'Our Values', href: '#ourvalues' },
+    { name: 'The Perks', href: '#theperks' },
+    { name: 'Contact Us', href: '#contact' },
 ]
 
 function Nav() {
@@ -16,10 +16,10 @@ function Nav() {
 
     return (
         <div className="bg-white">
-            <header className="absolute inset-x-0 top-0 z-50 bg-white">
+            <header className="fixed inset-x-0 top-0 z-50 bg-white">
                 <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
                     <div className="flex lg:flex-1">
-                        <a href="#" className="-m-1.5 p-1.5">
+                        <a href="#home" className="-m-1.5 p-1.5">
                             <span className="sr-only">Your Company</span>
                             <img
                                 className="h-8 w-auto"
@@ -50,7 +50,7 @@ function Nav() {
                     <div className="fixed inset-0 z-50" />
                     <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                         <div className="flex items-center justify-between">
-                            <a href="#" className="-m-1.5 p-1.5">
+                            <a href="#home" className="-m-1.5 p-1.5">
                                 <span className="sr-only">Your Company</span>
                                 <img
                                     className="h-8 w-auto"
