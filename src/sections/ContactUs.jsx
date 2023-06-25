@@ -12,11 +12,11 @@ const navigation = [
 
 function ContactUs() {
     return (
-        <div className="relative bg-[#07477A]" id='contact'>
+        <div className="relative bg-[#07477A] isolate" id='contact'>
             <img
                 src={BG_FOOTER}
                 alt="background image"
-                className="absolute -z-10 h-full w-full object-fill"
+                className="absolute w-full h-full pt-24 -z-10"
             />
             <div className='p-8 grid gap-x-6 md:grid-cols-2'>
                 <div className='mb-2'>
