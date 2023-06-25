@@ -18,7 +18,7 @@ const item_values = [
 
 function OurValues() {
     return (
-        <div className="container my-24 mx-auto md:px-6" id='ourvalues'>
+        <div className="container py-16 mx-auto md:px-6" id='ourvalues'>
             <section className="mb-32">
                 <h1 className="mb-12 text-3xl font-bold text-center" style={{ color: '#029FE4' }}>Our Core Values</h1>
                 <div className="flex flex-wrap items-center">
