@@ -1,14 +1,23 @@
 import React from 'react'
 import './App.css'
+import Nav from './sections/Nav'
+import Header from './sections/Header'
+import WhoWeAre from './sections/WhoWeAre'
+import OurValues from './sections/OurValues'
+import OurSpeciality from './sections/OurSpeciality'
+import ContactUs from './sections/ContactUs'
 
 function App() {
 
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-    </div>
+    <>
+      <Nav />
+      <Header />
+      <WhoWeAre />
+      <OurValues />
+      <OurSpeciality />
+      <ContactUs />
+    </>
   )
 }
 
