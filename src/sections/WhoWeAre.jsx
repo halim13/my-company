@@ -30,7 +30,7 @@ const Item = ({ title, subtitle, description }) => <div className="mb-12 lg:mb-0
 
 function WhoWeAre() {
     return (
-        <div className="grid gap-x-6 lg:grid-cols-3 px-8 py-24 bg-white">
+        <div className="grid gap-x-6 lg:grid-cols-3 px-8 py-24 bg-white" id='whoweare'>
             {
                 items_list.map((list, i) => <Item
                     key={i}
